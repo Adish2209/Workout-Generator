@@ -34,18 +34,22 @@ A web app built with Node.js, Express, HTML, CSS, and JavaScript that generates 
     - index.html → Main UI  
     - style.css → Styling  
     - script.js → Client-side logic
-    - 
+      
 
 
 📸 Screenshots
 
 🔹 Home Page
 
+
 <img width="1902" height="955" alt="Screenshot 2025-09-01 232248" src="https://github.com/user-attachments/assets/4315c40e-f41a-41c5-9843-f71d58cfd995" />
+
 
 🔹 Generated Workout Plan
 
+
 <img width="1906" height="954" alt="Screenshot 2025-09-01 232437" src="https://github.com/user-attachments/assets/9676abd1-bdc8-4eb4-904d-c8067c5c6b1f" />
+
 
 
 ## 🛠️ Future Improvements  
