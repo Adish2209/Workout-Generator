@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Personalized Workout Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>🏋️ Personalized Workout Generator</h1>
+      <p>Get a workout plan tailored to your energy, time, and goals</p>
+    </header>
+
+    <div class="card">
+      <label for="energy">⚡ Energy Level</label>
+      <select id="energy">
+        <option>Low</option>
+        <option>Medium</option>
+        <option>High</option>
+      </select>
+
+      <label for="time">⏳ Available Time (minutes)</label>
+      <input type="number" id="time" value="15">
+
+      <label for="goal">🎯 Goal</label>
+      <select id="goal">
+        <option>Strength</option>
+        <option>Cardio</option>
+        <option>Flexibility</option>
+      </select>
+
+      <button onclick="generateWorkout()">💪 Generate Workout</button>
+    </div>
+
+    <div id="result" class="result"></div>
+  </div>
+
+  <footer>
+    <p>Make Yourself More Stronger and Flexible.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
