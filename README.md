@@ -3,13 +3,13 @@ Personalized Workout Generator 🏋️‍♂️
 A web app built with Node.js, Express, HTML, CSS, and JavaScript that generates custom workout plans based on user input (energy level, time, and fitness goal). Stylish UI, responsive design, and simple backend logic for a fun fitness experience.
 
 
-✨ Features
+## ✨ Features  
+- ⚡ Select energy level (Low, Medium, High)  
+- ⏳ Input available workout time  
+- 🎯 Choose your goal: Strength, Cardio, or Flexibility  
+- 💪 Generates a personalized workout plan instantly  
+- 🎨 Stylish UI with smooth animations and responsive design  
 
-⚡ Select energy level (Low, Medium, High)
-⏳ Input available workout time
-🎯 Choose your goal: Strength, Cardio, or Flexibility
-💪 Generates a personalized workout plan instantly
-🎨 Stylish UI with smooth animations and responsive design
 
 
 🚀 Tech Stack
@@ -17,17 +17,6 @@ A web app built with Node.js, Express, HTML, CSS, and JavaScript that generates 
 Frontend: HTML, CSS, JavaScript (Vanilla)
 Backend: Node.js, Express.js
 Other: CORS enabled, REST API-based structure
-
-
-📂 Project Structure
-workout-generator/
-│
-├── server.js          # Backend server with Express
-├── package.json       # Dependencies & scripts
-├── public/            # Frontend files
-│   ├── index.html     # Main UI
-│   ├── style.css      # Styling
-│   └── script.js      # Client-side logic
 
 
 📸 Screenshots
